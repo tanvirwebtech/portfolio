@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+p,
+a {
+  font-family: "Poppins", sans-serif;
+}
+.color-orange {
+  color: #ff7712;
+}
+
+#hero {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+}
+.hero-info {
+  padding: 30px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.hero-info h1 {
+  font-size: 56px;
+}
+.hero-info h3 {
+  font-size: 18px;
+  padding: 30px 0;
+}
+.hero-thumb img {
+  width: 100%;
+}
+.hero-info a {
+  text-decoration: none;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  background: linear-gradient(
+    49deg,
+    rgba(255, 119, 18, 1) 0%,
+    rgb(219, 206, 20) 100%
+  );
+  margin-top: 15px;
+  display: inline-block;
+}
+.hero-info p {
+  color: rgb(83, 83, 83);
+  font-weight: 400;
+}
+#dream {
+  background-image: url(images/dream-bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.dream-thumb img {
+  width: 80%;
+  clip-path: circle(42.1% at 50% 50%);
+}
+.dream-info {
+  margin-top: 145px;
+}
+.dream-info h1 {
+  font-size: 56px;
+}
+.dream-info h3 {
+  font-size: 18px;
+  padding: 30px 0;
+}
+.dream-info p {
+  color: rgb(83, 83, 83);
+  font-weight: 400;
+  padding-right: 100px;
+}
+.dream-info a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  background: linear-gradient(
+    49deg,
+    rgba(255, 119, 18, 1) 0%,
+    rgb(219, 206, 20) 100%
+  );
+  margin-top: 15px;
+  display: inline-block;
+}
+#experience {
+  margin-top: 80px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.main-heading {
+  font-size: 50px;
+  margin-left: 30px;
+}
+.exp-unit {
+  width: 80%;
+  margin: 3%;
+  padding: 3%;
+  box-shadow: 8px 10px 40px gray;
+
+  border-radius: 5px;
+  border-left: 7px solid;
+}
+.exp-unit1 {
+  border-image: linear-gradient(
+    180deg,
+    rgba(207, 212, 6, 1) 9%,
+    rgba(255, 105, 18, 1) 87%
+  );
+  border-image-slice: 10% 30%;
+}
+.exp-unit2 {
+  border-image: linear-gradient(
+    180deg,
+    rgba(6, 30, 212, 1) 9%,
+    rgba(18, 246, 255, 1) 87%
+  );
+  border-image-slice: 10% 30%;
+}
+.exp-unit h1 {
+  font-size: 36px;
+  padding-top: 30px;
+}
+.exp-unit h3 {
+  padding: 20px 0;
+}
+footer p {
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(95, 95, 95);
+  font-weight: 300;
+}
